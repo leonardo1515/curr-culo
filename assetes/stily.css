@@ -26,12 +26,7 @@ body{
     align-items: center;
     justify-content: left;
     padding-left: 50px;
-    background-color: rgb(226, 226, 226);
-}
-
-/* navegador*/
-.nome{
-    font-size: 37px;
+    
 }
 
 .meu-nome,h2,.nav{
@@ -48,9 +43,22 @@ p.nav:hover{
     border: 5px solid rgb(209, 91, 47);
 }
 
+a{
+    text-decoration:none;
+   text-align: center;
+   color: black;
+}
+
+
+/* conteudo index*/
 .email{
     text-decoration: underline blue;
 }
+
+.nome{
+    font-size: 37px;
+}
+
 
 .comentario{
     padding-top: 70px;
@@ -58,15 +66,47 @@ p.nav:hover{
 
 .logo{
     
-    width: 40px;
+    width: 30px;
     padding: 20px;
+    
+}
+.icos {
+    display: flex;
+    justify-content: start;
+    margin-left: -20px;
+    
 }
 
-/* link e listas*/
- a{
-     text-decoration:none;
-    text-align: center;
-    color: black;
+/*conteudo conhecimentos*/
+
+
+
+ol{
+    
+    list-style-type: upper-latin;
+    line-height: 50px;
+    font-size: 25px;
+    
+}
+
+.barra-pro{
+    background-color: rgb(61, 60, 60);
+    border: 2px solid ;
+    height: 18px;
+    margin: 0px 10px 5px 20px  ;
+
+}
+
+.barra-pro::-webkit-progress-bar,
+.barra-pro::-moz-progress-bar  {
+    background-color: rgb(209, 91, 47);
+}  
+
+
+/*conteudo objetivo*/
+.objetivo{
+    list-style-type: none;
+    padding: 16px;
 }
 
 ul{
@@ -75,16 +115,13 @@ ul{
     list-style-type: none; 
 }
 
-ol{
-    font-weight: bold;
-    list-style-type: upper-latin;
-    line-height: 50px;
-    font-size: 30px;
-    
+.lista,.objetivo{
+    width: 600px;
 }
 
-/* ultima pagina*/
-.objetivo{
-    list-style-type: none;
-    padding: 16px;
+
+.sub-titulo{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
 }
